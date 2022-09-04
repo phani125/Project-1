@@ -1,0 +1,197 @@
+*{
+    border: 0px;
+}
+
+body{
+    border-left: 25px solid black;
+    border-right: 25px solid black;  
+    position: relative;
+    overflow-y: inherit;
+    overflow-x: hidden;
+    font-family: "Orbitron", sans-serif;
+}
+.list{
+    width: 100%;
+    display: flex;
+    justify-content : space-between !important;
+    margin-top: 1rem;
+    list-style: none
+}
+
+.hero-description {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 40px 0px 80px 80px;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    /* justify-content: center; */
+    padding-left: 7rem;
+    padding-right:9rem; 
+    margin-left: 15rem;
+}
+
+
+.navbar-container
+{
+   
+    display: flex;
+    justify-content : space-between;
+    margin-top: 1rem;
+   
+}
+
+.navbar-container img{
+    padding: 1rem;
+}
+
+.list-item{
+    padding: 1rem;
+    font-weight: 300px !important;
+    font-size: 1.5rem; 
+}
+
+.nav-button {
+    font-family: "Poppins", sans-serif;
+    background-color: transparent;
+    padding: 3px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #616161;
+    border-radius: 15px;
+    border: 3px solid #000000;
+    margin-top: 1.5rem;
+    margin-right: 3rem;
+}
+.button-group{
+    position: relative;
+    display: inline;
+    display: flex;
+
+}
+
+.search-icon{
+    margin-right: 1rem;
+    padding: 1rem;
+    padding-right: 0.2rem;
+    height: 40%;
+    width: 40%;
+    margin-top: 1rem;
+}
+
+.hero-container-right{
+    align-items: center;
+    text-align: center;
+}
+
+.button-email{
+    background-color: white;
+    color: gray;
+    border: 1px solid black;
+    font-size: 1.4rem;
+    margin-left: 13rem;
+    margin-top: 0rem;
+
+}
+
+.button-join{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 1.4rem;
+}
+
+.icons{
+    size: 50%;
+}
+
+.contact-heading{
+    font-weight: 500px;
+    margin-top: 2rem;
+}
+
+.hero-container .square{
+    position: relative;
+    left: 12rem;
+    top: 0rem;
+    margin-top: 16rem;
+}
+
+.hero-container{
+    display: flex;
+}
+
+.globe{
+    margin-top: 1rem;
+    margin-left: 31.5rem;
+    left: 11rem;
+    position: absolute;
+}
+
+.globe img{
+    height:4rem;
+    width: 4rem;
+}
+
+
+.list-item:first-child {
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.star{
+    height: 80px;
+    margin-left: 88%;
+    position: absolute;
+    top: 9rem;
+    }
+
+.hero-container > div > img:first-child{
+    position: absolute;
+    margin-top: 4rem;
+    width: 23rem;
+    height: 29rem;
+    left: 52px;
+
+}
+.contact-heading{
+    margin-left: 13rem;
+}
+.icons{
+    margin-left: 13rem;
+}
+.icons img{
+    position: relative;
+    right: 0%;
+    align-items: baseline;
+}
+
+.hero-heading{
+margin-top: 8rem;
+font-size: 60px;
+    margin-left: 13rem;
+
+}
+
+.hero-description div > button{
+    margin-top: 6rem;   
+    margin-left: 13rem;
+    
+
+}
+
+.hero-container .contact-heading .icons div span img{
+   width: 75% !important;
+   height: 4rem !important;
+}
+
+
+
+.square img{
+    height: 20.5rem;
+    width: 17.5rem;
+
+} 
