@@ -17,7 +17,7 @@
 
 ## Time taken:
 
-- This project took me 3 hours to build from scratch.
+- I have taken 3 hours to build from scratch.
 
 
 
